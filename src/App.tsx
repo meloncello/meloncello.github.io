@@ -3,13 +3,25 @@ import './App.css';
 import './menu.css';
 import logo from './logo.png';
 import { Article } from './Article';
-import { JsxEmit } from 'typescript';
 
-const Main = (Child: JSX.Element): JSX.Element {
-  const [state, setState] = useState(false);
+
+
+function Content() {
+  return (<Article title='Work_in_progress' />);
+}
+
+const Main = (): JSX.Element => {
+  const [state, setState] = useState(true);
   const getFont = (b: boolean): string => b ? 'Unifrakturmaguntia' : 'Roboto';
+  
+  const Page = () => (
+    <div style={{fontFamily: getFont(state)}}>
+      <Content></Content>
+    </div>
+  )
 
   return (
+    <>
     <header className="App-Header">
       <div id="top-header">
         <img src={logo} id="logo" alt="logo" />
@@ -23,7 +35,7 @@ const Main = (Child: JSX.Element): JSX.Element {
                   textTransform: 'capitalize',
                   fontSize: '17.8pt'
                 }}
-                  value='input-botton'
+                
                   onClick={() => setState(!state)}
                  >
                   Fraktur
@@ -37,18 +49,18 @@ const Main = (Child: JSX.Element): JSX.Element {
       <div id="header-image-menu">
       </div>
       </header>
-      <div style={fontFamily: {getFont(state)} }>
-      <Child></Child>
-      </div>
+      <Page/>
+      </>
   )
 }
 
+// todo: generare pag automaticamente in base a url
 
 function App(): JSX.Element {
   const Page: JSX.Element = Article({title: 'dog'});
   return (
     <div className="App">
-    <Main Child={Page}></Main>
+    <Main></Main>
     </div>
   );
 }

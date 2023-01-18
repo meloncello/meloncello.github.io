@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import wiki, { pageOptions } from "wikipedia";
 
-type pageProps = { title: string, font?: string};
+type pageProps = { title: string, font?: string };
 
 export const Article = ({ title, font }: pageProps): JSX.Element => {
     const options: pageOptions = {

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8bc5171.css",
+    "main.js": "/static/js/main.317979d3.js",
+    "static/js/787.141b18a4.chunk.js": "/static/js/787.141b18a4.chunk.js",
+    "static/media/UnifrakturMaguntia.ttf": "/static/media/UnifrakturMaguntia.386c925b7960373eafe4.ttf",
+    "static/media/logo.png": "/static/media/logo.797bd800363edb180b0f.png",
+    "index.html": "/index.html",
+    "main.c8bc5171.css.map": "/static/css/main.c8bc5171.css.map",
+    "main.317979d3.js.map": "/static/js/main.317979d3.js.map",
+    "787.141b18a4.chunk.js.map": "/static/js/787.141b18a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8bc5171.css",
+    "static/js/main.317979d3.js"
+  ]
+}
