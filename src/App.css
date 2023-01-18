@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +21,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow: hidden;
 }
 
 .App-link {
@@ -35,4 +35,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+   
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #282c34;
+  font-family: 'Roboto';
+  font-size: 12pt;
+  color: white;
+}
+       
+h1, h2, h3{
+  margin: 0;
+  padding: 0;
+  color: #b4b4b4;
+}
+a {
+  color: rgb(20, 168, 218);
+}
+
+p, ol, ul{
+  margin-top: 0;
+}
+
+p {
+  line-height: 180%;
+}
+
+ol, ul{
+  padding: 0;
+  list-style: none;
+}
+   
+.container{   
+  /* Set width of container to
+      1200px and align center */
+  margin: 0px auto;
+  width: 1200px;
+}
+
+button {
+  background-color: #282c34;
+  color: #FFF;
+
+}
+
+@font-face {
+  font-family: 'UnifrakturMaguntia';
+  src: url('https://fonts.googleapis.com/css?family=UnifrakturMaguntia'), url('./fonts/UnifrakturMaguntia.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
