@@ -87,3 +87,7 @@ button {
   font-weight: normal;
   font-style: normal;
 }
+
+body.Not-Found {
+  background-color: black;
+}
