@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import './menu.css';
+import './wiki.css'
 import logo from './logo.png';
 import { Article } from './Article';
 import P404 from './404'
@@ -17,7 +18,8 @@ const Main: React.FC<ParentCompProps> = (props) => {
   const getFont = (b: boolean): string => b ? 'Unifrakturmaguntia' : 'Roboto';
   
   const Page = () => (
-    <div style={{fontFamily: getFont(state)}}>
+    <div style={{fontFamily: getFont(state), 
+                 marginTop: state ? "15px" : "0"}}>
       {child}
     </div>
   )
@@ -74,7 +76,7 @@ function App(): JSX.Element {
     case "search":
       return (<SearchWidget/>)
     case "wiki":
-      return (<Article title={title}/>);
+      return (<Article title={title} langCode='en'/>);
     default:
       return(undefined);
     }

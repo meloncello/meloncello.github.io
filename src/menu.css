@@ -18,11 +18,10 @@ header{
 /* Styling Logo */
 /****************/
 #logo{
-    align: center;
-    float: none;
+    float: left;
     padding: none;
-    height: 55px;
-    width: 30%;
+    height: 50px;
+    width: 20%;
     margin-top: 4px;
 }
  
@@ -40,7 +39,7 @@ header{
     margin-right: none;
     margin-top: 0px;
     float: right;
-    width: 70%;
+    width: fit-content;
     height: 100%;
     margin: none;
     text-transform: uppercase;
@@ -58,6 +57,8 @@ header{
     display: inline-block;
     padding: none;
     margin: none;
+    margin-right: -8.3px ;
+    float: right;
 }
 
 
@@ -90,3 +91,5 @@ header{
     font-weight: normal;
     font-style: normal;
   }
+
+  .home { text-align: center;}

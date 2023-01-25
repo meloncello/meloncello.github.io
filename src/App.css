@@ -55,12 +55,18 @@ a {
   color: rgb(20, 168, 218);
 }
 
-p, ol, ul{
+ol, ul{
   margin-top: 0;
+  text-align: justify;
 }
 
 p {
-  line-height: 180%;
+  line-height: 135%;
+  font-size: 10.5pt;
+  margin-top: 10px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ol, ul{
@@ -81,6 +87,10 @@ button {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'UnifrakturMaguntia';
   src: url('https://fonts.googleapis.com/css?family=UnifrakturMaguntia'), url('./fonts/UnifrakturMaguntia.ttf');
@@ -91,3 +101,4 @@ button {
 body.Not-Found {
   background-color: black;
 }
+

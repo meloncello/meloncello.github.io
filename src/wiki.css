@@ -1,0 +1,146 @@
+.box-Lead_too_long.plainlinks.metadata.ambox.ambox-style.ambox-lead_too_long {
+    background-color: rgba(28, 43, 48, 0.712);
+}
+
+.mbox-text-span {
+    color: white;
+    background-color: rgba(28, 43, 48, 0.712);
+}
+  
+th, td {
+    align-items: center;
+}
+  
+th.infobox-header {
+    color: rgba(50, 0, 230, 0.637);
+    background: red;
+    background-color: ;
+}
+  
+li, td, th {
+    border: solid 0.1px #FFF;
+    background-color: #1f2229;
+    text-align: center;
+}
+
+ul li, ul a {
+  border: none;
+}
+  
+.mw-parser-output {
+    align-items: center
+}
+  
+#mw-toc-heading {
+  direction: ltr;
+  color: rgba(255, 255, 255, 0.842);
+  font-weight: normal;
+  line-height: 1.1;
+  font-size: 1.5em; 
+  margin-bottom: 10px;
+  }
+  
+div.sidebar-list-title, td.sidebar-content li{
+    border: none;
+  }
+
+div.mw-parser-output {
+    align-items: center;
+    margin: 10px;
+  }
+
+  div.mw-parser-output p {
+    margin-right: 0px;
+    size: 0px;
+  }
+
+  p {
+    size: 8px;
+  }
+
+  table.infocard.vcard {
+    align-items: center;
+  }
+
+
+  table.infocard.vcard li {
+    text-align: center;
+  }
+
+  table.infocard.vcard th.infobox-label {
+    background-color: black;
+    float: left;
+  }
+
+  .infocard {
+    align-self: left;
+    align-items: left;
+    align-content: left;
+    width: fit-content;
+    height: auto;
+    float: left;
+  }
+
+  table.sidebar, .sidebar-collapse, .nomobile, .nowraplinks {
+    align-content: left;
+    width: fit-content;
+    height: auto;
+    font-size: 9px;
+    align-self: left;
+    align-items: left;
+    align-content: left;
+    width: fit-content;
+    height: auto;
+    float: left;
+  }
+
+  div#toc.toc {
+    visibility: hidden;
+    height: 10px;
+    width: 0;
+  }
+
+  img.thumbimage {
+    align-content: center;
+    align-self: center;
+    align-items: center;
+  }
+
+  li:empty {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  li:empty::after {
+    display: none;
+
+  }
+
+  ul.lang-names {
+    margin-top: 8px;
+    background-color: #1f2229;
+    background: #1f2229;
+    width:auto;
+    border: solid whitesmoke;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  ul.lang-names li {
+    background-color: #1f2229;
+    background-color: #1f2229;
+    color: cornflowerblue;
+    display: inline;
+    size: 8px;
+    line-height: 20px;
+  }
+  ul.lang-names li::after {
+    content: " • "
+  }
+
+  .mwe-math-fallback-image-inline {
+    background-color: white;
+    border: solid 0..01px white;
+  }
